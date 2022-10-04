@@ -58,9 +58,9 @@ int main()
     int x;
     x = 0;
     do{
-        if(x != 0)
+        if(x % 5 == 0)
         cout << x << endl;
-        x+=5;
+        x++;
     }while(x <= 40);
     return 0;
 }
